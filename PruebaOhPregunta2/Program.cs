@@ -21,7 +21,7 @@ namespace PruebaOhPregunta2
 
             EnvioCorreo correo = new EnvioCorreo();
             string body = @"<h1>Este es el body</h1>";
-            correo.envioCorreo("ceiber@garisfostsoluciones.onmicrosoft.com", "Reporte Empleados - Examen Técnico Oechsle", body, email, clave);
+            correo.envioCorreo("franco.paredes@oechsle.pe", "Reporte Empleados - Examen Técnico Oechsle", body, email, clave);
 
             Console.Write($"{Environment.NewLine}Reporte de empleados desde {fechaInicio:d} hasta {fechaFinal:d}");
         }
