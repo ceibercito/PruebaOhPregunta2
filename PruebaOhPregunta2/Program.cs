@@ -20,7 +20,7 @@ namespace PruebaOhPregunta2
             conexion.listarSQL();
 
             EnvioCorreo correo = new EnvioCorreo();
-            string body = @"<h1>Este es el body</h1>";
+            string body = @"<h1>Reporte de prueba</h1>";
             correo.envioCorreo("franco.paredes@oechsle.pe", "Reporte Empleados - Examen Técnico Oechsle", body, email, clave);
 
             Console.Write($"{Environment.NewLine}Reporte de empleados desde {fechaInicio:d} hasta {fechaFinal:d}");
