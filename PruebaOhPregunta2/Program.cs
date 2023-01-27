@@ -6,7 +6,7 @@ namespace PruebaOhPregunta2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese el correo remitente");
+            Console.WriteLine("Ingrese el correo remitente Proveedor de correo(hotmail)");
             var email = Console.ReadLine();
             Console.WriteLine("Ingrese la clave del correo");
             var clave = Console.ReadLine();
